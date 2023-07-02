@@ -13,7 +13,6 @@ const { active_view } = storeToRefs(state_store)
   <div class="top">
     <div class="container">
       <div class="nav">
-        111
         <div
           v-for="view in views"
           :key="view.component"
@@ -25,7 +24,7 @@ const { active_view } = storeToRefs(state_store)
           ]"
           @click="open_view(view.component)"
         >
-          {{ view.name }}
+          {{ view.name }} 111
         </div>
       </div>
     </div>
