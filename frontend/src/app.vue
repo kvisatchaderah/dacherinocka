@@ -13,6 +13,7 @@ const { active_view } = storeToRefs(state_store)
   <div class="top">
     <div class="container">
       <div class="nav">
+        111
         <div
           v-for="view in views"
           :key="view.component"
