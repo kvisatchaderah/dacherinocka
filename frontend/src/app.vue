@@ -24,7 +24,7 @@ const { active_view } = storeToRefs(state_store)
           ]"
           @click="open_view(view.component)"
         >
-          {{ view.name }} 111
+          {{ view.name }}
         </div>
       </div>
     </div>
