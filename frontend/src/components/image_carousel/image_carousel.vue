@@ -251,9 +251,9 @@ $modal__bg: rgba($black, 0.9);
     height: 100%;
 
     .img_container_outter {
-      margin-top: 3rem;
-      width: 100%;
-      height: calc(100% - 4.5rem);
+      width: 92%;
+      margin-left: 4%;
+      height: calc(100vh - 2.5rem);
       object-fit: contain;
 
       display: flex;
@@ -266,8 +266,8 @@ $modal__bg: rgba($black, 0.9);
       position: relative;
 
       img {
-        max-width: 92%;
-        margin-left: 4%;
+        max-width: 100%;
+        max-height: 100%;
       }
 
       .img_info {
@@ -275,8 +275,8 @@ $modal__bg: rgba($black, 0.9);
 
         position: absolute;
         bottom: 6px;
-        left: 4%;
-        right: 4%;
+        left: 0;
+        right: 0;
 
         min-width: max-content;
 
